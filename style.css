@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap:4vw;
+    padding: 0 3vw;
+}
+
+
+nav i{
+    display: inline-block;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+#heading h1{
+    width: 40%;
+    padding: 2vw  5vw;
+    font-size: 60px;
+}
+
+#center{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding:  3vw 5vw;
+    justify-content: space-between;
+}
+
+#center p{
+    width: 25%;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+#center-right{
+    width: 12%;
+    
+}
+
+#center-right .elem{
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#center-right .elem a{
+  text-decoration: none;
+   display: inline-block;
+   padding: 0.6vw 0;
+   color: black;
+   font-weight: 600;
+   font-size: 18px;
+}
+
+.elem i{
+  opacity: 0;
+}
+
+.elem:hover i{
+    opacity: 1;
+    
+}
+
+.elem:hover {
+    background-color: rgb(242, 242, 247);
+}
+
+#down-section{
+    width: 100%;
+    height: 31%;
+    background-image: url(https://media.istockphoto.com/id/1069661806/photo/pretty-indian-girl.jpg?s=2048x2048&w=is&k=20&c=PLnHl6wWCBKHCvOdMlr9Qvd9AF5Pnb4vjmI-OHyguqY=);
+    background-position: 0 18%;
+    background-size: cover;
+}
+
